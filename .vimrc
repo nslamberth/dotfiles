@@ -1,11 +1,10 @@
-filetype plugin indent on
 syntax on
-set background=dark
+filetype plugin indent on
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-inoremap jk <ESC>
 let mapleader = ","
+inoremap jk <ESC>
 nnoremap n nzz
 nnoremap N Nzz
 nnoremap <C-o> <C-o>zz
@@ -15,6 +14,7 @@ nnoremap <S-Enter> O<Esc>
 nnoremap <Space> :
 nnoremap <c-p> :bp<CR>
 nnoremap <c-n> :bn<CR>
+vnoremap . :norm.<CR>
 
 set ignorecase
 set smartcase
@@ -28,4 +28,5 @@ set softtabstop=4
 set shiftwidth=4
 set autoindent
 set mouse=a
+set background=dark
 colorscheme monokai

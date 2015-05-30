@@ -1,4 +1,4 @@
-cd /Users/nick/desktop
+cd ~/Desktop
 
 # aliases
 alias cdd="cd  ~/Desktop"
@@ -19,6 +19,3 @@ export PATH
 
 ### Use Brew Vim instead of the other
 export PATH=/usr/local/bin:$PATH
-
-# added by Anaconda 2.2.0 installer
-export PATH="/Users/nick/anaconda/bin:$PATH"

@@ -1,2 +1,2 @@
 # dotfiles
-saving my dotfiles here to sync between machines
+My dotfile configs.

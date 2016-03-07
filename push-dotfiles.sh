@@ -4,11 +4,19 @@
 originalpath=$(pwd)
 cd ~/dotfiles
 
-echo -e "\nA diff of affected files:"
+echo -e "\nDiff of bash_profile:"
 diff ~/.bash_profile ~/dotfiles/.bash_profile
+
+echo -e "\nDiff of bashrc:"
 diff ~/.bashrc ~/dotfiles/.bashrc
+
+echo -e "\nDiff of vimrc:"
 diff ~/.vimrc ~/dotfiles/.vimrc
+
+echo -e "\nDiff of slate:"
 diff ~/.slate ~/dotfiles/.slate
+
+echo -e "\nDiff of startup.py:"
 diff ~/.ipython/profile_default/startup/startup.py ~/dotfiles/startup.py
 
 echo -e "\nThe above changes will be made. Okay? (Press any key to continue, or Ctrl+C to cancel.)"

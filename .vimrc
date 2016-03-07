@@ -19,7 +19,7 @@ vnoremap . :norm.<CR>
 set ignorecase
 set smartcase
 set backspace=indent,eol,start
-set clipboard=unnamed
+set clipboard^=unnamed,unnamedplus
 set number
 set hidden
 set expandtab

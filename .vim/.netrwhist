@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/nick/Desktop'
-let g:netrw_dirhist_2='/Users/nick/Desktop/code'
-let g:netrw_dirhist_3='/Users/nick/Desktop/casper'
-let g:netrw_dirhist_4='/Users/nick/Desktop/money'
-let g:netrw_dirhist_5='/Users/nick/Desktop/code/flaskr'
-let g:netrw_dirhist_6='/Users/nick/Desktop/code/flaskr/templates'
-let g:netrw_dirhist_7='/Users/nick/Desktop/code/flaskr'
-let g:netrw_dirhist_8='/Users/nick/Desktop/code/flaskr/static'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/nick/code/myflaskapp/dotfiles/.ipython/profile_default/startup'

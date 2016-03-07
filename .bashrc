@@ -4,6 +4,7 @@ alias la="ls -a"
 alias ll="ls -l"
 alias vbp="vim ~/.bashrc"
 alias vrc="vim ~/.vimrc"
+alias pushdot="bash ~/dotfiles/push-dotfiles.sh"
 
 ### OSX Specific things.
 if [[ ${OSTYPE:0:6} == "darwin" ]]; then

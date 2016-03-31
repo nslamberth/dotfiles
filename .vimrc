@@ -36,8 +36,14 @@ set shiftwidth=4
 set autoindent
 set mouse=a
 
-if has("win32") || has("win16")
-    " nothing
+if $TERM == 'cygwin'
+    set term=pcansi
+    colorscheme elflord
+    let &t_ti.="\e[1 q"
+    let &t_SI.="\e[5 q"
+    let &t_EI.="\e[1 q"
+    let &t_te.="\e[0 q"
+    nohlsearch
 else
     colorscheme monokai
 endif

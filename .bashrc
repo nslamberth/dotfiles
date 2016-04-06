@@ -26,4 +26,17 @@ if [[ ${OSTYPE:0:6} == "cygwin" ]]; then
     alias muzak="python /cygdrive/c/Users/nlambert1/Desktop/code/muzak.py"
     alias goodmorning="cdd; python upload_products_to_pgci.py & python upload_innovid_data_to_pgci.py & python upload_comscore_data_to_pgci.py &"
     alias quest="cd /cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64/Lib/site-packages/requests/"
+    # for ipython paste magic
+    export DISPLAY=:0.0 
+    if (ps aux | grep xinit) > /dev/null
+    then
+        :
+    else
+        if (ps aux | grep XWin) > /dev/null
+        then
+            (ps aux | grep XWin | awk '{print $1}' | xargs kill)
+        fi
+        startxwin &
+        echo "x server started"
+    fi
 fi

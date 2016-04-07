@@ -48,5 +48,3 @@ if $TERM == 'cygwin'
 else
     colorscheme monokai
 endif
-
-execute pathogen#infect()

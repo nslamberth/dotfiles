@@ -21,9 +21,8 @@ fi
 if [[ ${OSTYPE:0:6} == "cygwin" ]]; then
     alias e.="explorer ."
     alias nw="/cygdrive/c/Users/nlambert1/Desktop/cmder/Cmder.exe"
-    alias csplit="python /cygdrive/c/Users/nlambert1/Desktop/code/csv_splitter.py $*"
-    alias chead="python /cygdrive/c/Users/nlambert1/Desktop/code/csv_head.py $*"
-    alias muzak="python /cygdrive/c/Users/nlambert1/Desktop/code/muzak.py"
+    alias csplit="python /cygdrive/c/Users/nlambert1/Desktop/code/clitools/csv_splitter.py $*"
+    alias muzak="python /cygdrive/c/Users/nlambert1/Desktop/code/clitools/muzak.py"
     alias goodmorning="cdd; python upload_products_to_pgci.py & python upload_innovid_data_to_pgci.py & python upload_comscore_data_to_pgci.py &"
     alias quest="cd /cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64/Lib/site-packages/requests/"
     # for ipython paste magic

@@ -18,11 +18,11 @@ nnoremap <C-J> o<Cr><Esc>k
 nnoremap <S-Enter> O<Esc>
 nnoremap <c-p> :bp<CR>
 nnoremap <c-n> :bn<CR>
-nnoremap <C-e> :e#<CR>
 nnoremap <silent> <c-k> :wincmd k<CR>
 nnoremap <silent> <c-j> :wincmd j<CR>
 nnoremap <silent> <c-h> :wincmd h<CR>
 nnoremap <silent> <c-l> :wincmd l<CR>
+nnoremap <C-u> <C-e>
 
 set ignorecase
 set smartcase

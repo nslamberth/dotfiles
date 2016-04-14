@@ -1,10 +1,9 @@
 # aliases
 alias cdd="cd  /cygdrive/c/Users/nlambert1/Desktop/"
 alias cls="clear"
-alias ls="ls -C $*"
+alias ls="ls --color"
 alias la="ls -a"
 alias ll="ls -l"
-alias ls="ls -F"
 alias vbp="vim ~/.bashrc"
 alias vrc="vim ~/.vimrc"
 alias pushdot="bash ~/dotfiles/push-dotfiles.sh"

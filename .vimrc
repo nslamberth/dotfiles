@@ -48,3 +48,9 @@ if $TERM == 'cygwin'
 else
     colorscheme monokai
 endif
+
+augroup elm
+    autocmd!
+    autocmd Filetype elm setlocal shiftwidth=4 softtabstop=4 tabstop=4
+    autocmd BufWrite *.elm setlocal filetype=elm
+augroup END

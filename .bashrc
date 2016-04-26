@@ -1,4 +1,4 @@
-# aliaset
+# set aliases
 alias cdd="cd  /cygdrive/c/Users/nlambert1/Desktop/"
 alias cls="clear"
 alias ls="ls --color"
@@ -8,6 +8,9 @@ alias vbp="vim ~/.bashrc"
 alias vrc="vim ~/.vimrc"
 alias pushdot="bash ~/dotfiles/push-dotfiles.sh"
 alias pulldot="bash ~/dotfiles/pull-dotfiles.sh"
+
+# disable flask debug pin
+export WERKZEUG_DEBUG_PIN=off
 
 ### home specific things
 if [[ ${OSTYPE:0:6} == "darwin" ]]; then

@@ -29,6 +29,7 @@ if [[ ${OSTYPE:0:6} == "cygwin" ]]; then
     alias quest="cd /cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64/Lib/site-packages/requests/"
     alias csp="cd /cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64/Lib/site-packages/"
     alias vutils="vim /cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64/Lib/site-packages/utils.py"
+    alias mbox="python /cygdrive/c/Users/nlambert1/Desktop/code/clitools/mbox_export.py"
     desktop="/cygdrive/c/Users/nlambert1/Desktop/"
     export PATH=/cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64:$PATH
     export PATH=/cygdrive/c/WinPython-64bit-2.7.6.4/python-2.7.6.amd64/Scripts:$PATH
